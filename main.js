@@ -125,7 +125,7 @@ downloadResumeBtn.addEventListener('click', () => {
         
         // Create and trigger download
         const link = document.createElement('a');
-        link.href = '#';
+        link.href = 'Elayaraja.pdf';
         link.download = 'Elayaraja.pdf';
         document.body.appendChild(link);
         link.click();
@@ -153,7 +153,7 @@ resumeDownloadBtn.addEventListener('click', (e) => {
         
         // Create and trigger download
         const link = document.createElement('a');
-        link.href = '#';
+        link.href = 'Elayaraja.pdf';
         link.download = 'Elayaraja.pdf';
         document.body.appendChild(link);
         link.click();
@@ -807,4 +807,5 @@ document.querySelectorAll('.skill-card').forEach(card => {
     }
 
     // Start typing effect after a short delay
+
     setTimeout(type, 10000);

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elayaraja |
+        Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion@10.12.0/dist/framer-motion.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">ELAYARAJA M</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+   
+</nav>
+    <!-- Mobile Navigation -->
+    <div class="overlay" id="overlay"></div>
+    <div class="mobile-nav" id="mobileNav">
+        <button class="close-btn" id="closeBtn">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="#hero" class="mobile-nav-link">Home</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#education" class="mobile-nav-link">Education</a></li>
+            <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#certificates" class="mobile-nav-link">Certificates</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <button class="theme-toggle mobile-theme-toggle" id="mobileThemeToggle">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+ 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="particles-js"></div>
+        <div class="container hero-content">
+            <div class="profile-container">
+                <div class="hud-ring"></div>
+                <div class="hud-ring"></div>
+                <div class="hud-ring"></div>
+                <img src="eli.jpeg" alt="Profile" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, there i'm Elayaraja</h1>
+                <div class="typing-text"></div>
+                <p align="justify">Looking for an opportunity to work as a developer and build on my skills in coding, problem-solving, and collaboration to create impactful software. Seeking a software development role where I can
+learn and grow while applying my academic knowledge in a real-world setting
+                    </p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" id="viewProjects">View Projects</button>
+                    <button class="btn btn-outline" id="downloadResume">Download Resume</button>
+                </div>
+                <div class="social-links">
+                <a href="https://www.linkedin.com/in/elayaraja-m-049502259" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Elayaraja31" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">ABOUT ME</h2>
+            <p>I develop modern web applications that blend clean design with efficient, scalable technology. I specialize in creating responsive, interactive user interfaces and engaging web experience</p><br>
+            <div class="about-content">
+            <div class="about-card" id="aboutCard1">
+                    <h3>Hobbies</h3>
+                    <p>
+                        <ul>
+                            <li>Listening Music</li>
+                            <li class="highlight">Singing Songs</li>
+                            <li class="highlight">Cooking</li>
+                            <li>Drawing</li>
+                        </ul>
+                        
+                </div>
+                <div class="about-card" id="aboutCard2">
+                    <h3>Soft Skill</h3>
+        <ul>
+            <li>Time Management</li>
+            <li>Problem Solving</li>
+            <li class="highlight">Teamwork and Collaboration</li>
+            <li class="highlight">Communication Skill</li>
+            <li class="highlight">Adaptability</li>
+            <li>Leadership Organization</li>
+        </ul>
+                </div>
+                <div class="about-card" id="aboutCard3">
+                    <h3>Languages</h3>
+                    <p>
+                        <ul>
+                            <li>English</li>
+                    <li>Tamil</li>
+                    <li class="highlight">Telugu</li>
+                </ul>
+            </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>LET'S BUILD SOMETHING FUTURISTIC TOGETHER</h2>
+                <button class="cta-button" id="ctaButton">Initiate Collaboration</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Resume -->
+    <section id="download">
+        <div class="container download-section">
+            <h2 class="section-title">RESUME</h2>
+            <p>Download my complete resume with detailed experience, education, and skills.</p>
+            <a href="#" class="download-btn" id="resumeDownloadBtn">
+                <i class="fas fa-file-download"></i>
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+  
+    <!-- Education Section -->
+<section id="education">
+    <div class="container">
+        <h2 class="section-title">EDUCATION</h2>
+        <div class="timeline">
+            <!-- Bachelor of Engineering -->
+            <div class="timeline-item" id="timeline1">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="education-header">
+                            <span class="education-status status-in-progress">Currently-Pursuing</span>
+                        <h3>Bachelor of Engineering</h3>
+                    
+                    </div>
+                    <p class="education-field">Computer Science And Engineering</p>
+                    <p class="education-institution">
+                             <i class="fas fa-graduation-cap"></i>
+                        Coimbatore Institute of Engineering and Technology
+                    </p>
+                    <div class="education-metrics">
+                        <div class="metric">
+                            <span class="metric-label">CGPA</span>
+                            <span class="metric-value highlight-metric">8.16</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Duration</span>
+                            <span class="metric-value">2023 - 2026</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+
+            <!-- HSC -->
+            <div class="timeline-item" id="timeline3">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="education-header">
+                         <span class="education-status status-completed">Completed</span>
+                        <h3>Higher Secondary School (HSC)</h3>
+                        
+                    </div>
+                    <p class="education-field">Secondary Education</p>
+                    <p class="education-institution">
+                        <i class="fas fa-school"></i>
+                        Shri Vinayaga Higher Secondary School
+                    </p>
+                    <div class="education-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Percentage</span>
+                            <span class="metric-value highlight-metric">77.1%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Year</span>
+                            <span class="metric-value">2021 - 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SSLC -->
+            <div class="timeline-item" id="timeline4">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="education-header">
+                         <span class="education-status status-completed">Completed</span>
+                        <h3>Secondary School (SSLC)</h3>
+                       
+                    </div>
+                    <p class="education-field">Secondary Education</p>
+                    <p class="education-institution">
+                        <i class="fas fa-school"></i>
+                        Shri Vinayaga Higher Secondary School
+                    </p>
+                    <div class="education-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Percentage</span>
+                            <span class="metric-value highlight-metric">98.8%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Year</span>
+                            <span class="metric-value">2019 - 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Summary Cards -->
+        <div class="education-summary">
+            <div class="summary-card">
+                <div class="summary-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="summary-content">
+                    <span class="summary-value highlight-summary">91%</span>
+                    <span class="summary-label">Diploma Grade</span>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="summary-content">
+                    <span class="summary-value">76.5%</span>
+                    <span class="summary-label">HSC Percentage</span>
+                </div>
+            </div>
+            <div class="summary-card">
+                <div class="summary-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="summary-content">
+                    <span class="summary-value">6.87</span>
+                    <span class="summary-label">Current CGPA</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Skills Section -->
+<section id="skills">
+    <div class="container">
+        <h2 class="section-title">TECHNICAL SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-card" id="skill1">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card" id="skill2">
+                <div class="skill-icon">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card" id="skill3">
+                <div class="skill-icon">
+                    <i class="fab fa-js-square"></i>
+                </div>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card" id="skill4">
+                <div class="skill-icon">
+                    <i class="fab fa-python"></i>
+                </div>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card" id="skill5">
+                <div class="skill-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <h3>Java</h3>
+            </div>
+            <div class="skill-card" id="skill6">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>MySQL</h3>
+            </div>
+            <div class="skill-card" id="skill7">
+                <div class="skill-icon">
+                    <i class="fab fa-microsoft"></i>
+                </div>
+                <h3>MS Office</h3>
+            </div>
+            <div class="skill-card" id="skill8">
+                <div class="skill-icon">
+                    <i class="fab fa-canva"><img width="60" height="60" src="https://img.icons8.com/color/48/canva.png" alt="canva"/></i>
+                </div>
+                <h3>Canva</h3>
+            </div>
+            
+            <div class="skill-card" id="skill10">
+                <div class="skill-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <h3>GitHub</h3>
+            </div>
+
+        </div>
+    </div>
+</section>
+        
+
+   <!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2 class="section-title">PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card" id="project1">
+                <div class="project-img-container">
+                    <img src="https://developer-service.blog/content/images/2024/05/tictactoe.webp" alt="TIC TAC TOE - AI" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://github.com/Elayaraja31/tic-tac-toe-using-ai/tree/main/Tic-Tac-Tok-Ai-main" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                      
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>TIC TAC TOE - AI</h3>
+                    <p align="justify">This project is a Tic Tac Toe game featuring an AI opponent that uses the Minimax algorithm to make optimal decisions.<br>It demonstrates logical decision-making in artificial intelligence through a classic game scenario.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pygame</span>
+                        <span class="tech-tag">Numpyt</span>
+                        <span class="tech-tag">minimax-algorithm</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card" id="project2">
+                <div class="project-img-container">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Cyberpunk Dashboard" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://github.com/nexus7/cyberpunk-dashboard" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                      
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Cyberpunk Dashboard</h3>
+                    <p>Interactive data visualization dashboard with real-time metrics, neon graphs, and animated HUD elements.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chart.js</span>
+                        <span class="tech-tag">CSS Grid</span>
+                        <span class="tech-tag">WebSockets</span>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Additional Project -->
+            <div class="project-card" id="project3">
+                <div class="project-img-container">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Neon Crypt" class="project-img">
+                    <div class="project-overlay">
+                        <a href="https://github.com/nexus7/neon-crypt" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i>
+                            View Code
+                        </a>
+                       
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Neon Crypt</h3>
+                    <p>Cybersecurity visualization tool with real-time threat detection and encryption algorithm animations.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">WebSocket</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Canvas API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Certificates Section -->
+    <section id="certificates">
+        <div class="container">
+            <h2 class="section-title">CERTIFICATES</h2>
+            <div class="certificates-slider">
+                <div class="certificate-card">
+                    <img src="https://play-lh.googleusercontent.com/r-wS-IYyw1WAQDj2LAU_qw39hq7O-9H-U_pUn-ld9zjWJ89DT97AfPaEe97qnaw9o5A" alt="Digilabs" class="certificate-img">
+                    <div class="certificate-info">
+                        <h3>Digilabs</h3>
+                        <p>Basic Python <br><span class="highlight">Duration: 1-month</span></p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKbpzqq2krrT3DZ9ACSrHt4GY-63Dy8xc3FA&s" alt="IBM" class="certificate-img">
+                    <div class="certificate-info">
+                        <h3>IBM</h3>
+                        <p>Tech talk on SQL by IBMers Govindon G & Prajesh J.<br>
+                        <span class="highlight">Duration: 3-hour</span></p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnz-b1G28ooRJRLWdh-4uJWR42gTENoT07jg&s" alt="Web Animation" class="certificate-img">
+                    <div class="certificate-info">
+                        <h3>IBM</h3>
+                        <p>Soft Skills Enrichment program by IBMers Govindon G & Prajesh Jayaraman.<br>
+                        <span class="highlight">Duration: 2-hour</span></p>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="https://www.livemint.com/lm-img/img/2025/07/23/600x338/DAVOS-WEF-2025-31_1737369284632_1753253072879.jpg" alt="Infosys" class="certificate-img">
+                    <div class="certificate-info">
+                        <h3>INFOSYS</h3>
+                        <p>Web Development using PHP Programming and MySQL.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="https://mail.ee650087@gmail.com/"target="_blank"  class="contact-link">
+                                ee650087@gmail.com
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Current Location</h3>
+                            <p>Morepalayam,Nammakkal</p>
+                            
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Mobile</h3>
+                            <a href="tel:+919360667874" class="contact-link">
+                                +91 93606 67874
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Transmission</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-input" placeholder=" " required>
+                            <label for="name" class="form-label">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-input" placeholder=" " required>
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                        <div class="form-group">
+                           
+                            <input type="text" id="subject" class="form-input" name="subject" required placeholder="">
+                             <label for="subject" class="form-label">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" class="form-input" placeholder=" " rows="5" required></textarea>
+                            <label for="message" class="form-label">Message</label>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Transmission
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links -->
+    <div class="container">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/elayaraja-m-049502259" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Elayaraja31" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+                </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            
+            <p class="copyright">
+               <span class="banner"> © 2025 ELAYARAJA| PORTFOLIO |FULL-STACK WEB-DEVELOPER</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

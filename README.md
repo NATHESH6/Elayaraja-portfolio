@@ -1,9 +1,9 @@
-# 🚀 Cyberpunk Portfolio Website
+# 🚀 Portfolio Website
 ## 🌟 Overview
 A futuristic cyberpunk-themed animated portfolio website with neon aesthetics, interactive 3D elements, and smooth animations. Built with pure HTML, CSS, and JavaScript to create an immersive sci-fi dashboard experience.
 
-🎨 Features
-🖥️ Visual Design
+## 🎨 Features
+### 🖥️ Visual Design
 
 - Cyberpunk UI: Neon gradients (cyan, magenta, green accents)
 
@@ -13,7 +13,7 @@ A futuristic cyberpunk-themed animated portfolio website with neon aesthetics, i
 
 - Glitch & Neon Effects: Text animations and glowing borders
 
-🎬 Animations & Interactions
+### 🎬 Animations & Interactions
 
 - Interactive Particles: Mouse-reactive particle background
 
@@ -25,14 +25,14 @@ A futuristic cyberpunk-themed animated portfolio website with neon aesthetics, i
 
 - Mobile Optimized: Touch-friendly interactions with hamburger menu
 
-📱 Responsive Layout
-Mobile-first responsive design
+### 📱 Responsive Layout
+- Mobile-first responsive design
 
-Tablet and desktop optimizations
+- Tablet and desktop optimizations
 
-Touch gestures for mobile devices
+- Touch gestures for mobile devices
 
-Performance-optimized animations
+- Performance-optimized animations
 
 🛠️ Tech Stack
 HTML5 - Semantic structure

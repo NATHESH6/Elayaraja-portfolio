@@ -48,11 +48,13 @@ A futuristic cyberpunk-themed animated portfolio website with neon aesthetics, i
 
 ### 📁 File Structure
 text
+```
 cyberpunk-portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # All CSS styles
 ├── script.js           # All JavaScript functionality
 └── README.md           # This file
+```
 🚀 Getting Started
 Quick Start
 Download all three files (index.html, styles.css, script.js)

@@ -153,21 +153,21 @@ Simply open index.html in any modern web browser to see the portfolio in action.
 - Social media links
 
 - Contact Form Setup
-1. Option A (Formspree - Recommended):
+#### 1.Option A (Formspree - Recommended):
 
-Sign up at formspree.io
+- Sign up at formspree.io
 
-Create a new form and get your endpoint
+- Create a new form and get your endpoint
 
-Replace YOUR_FORM_ID in the form action attribute
+- Replace YOUR_FORM_ID in the form action attribute
 
-2. Option B (EmailJS):
+#### 2.Option B (EmailJS):
 
-Sign up at emailjs.com
+- Sign up at emailjs.com
 
-Update script.js with your credentials
+- Update script.js with your credentials
 
-Colors & Theme
+### Colors & Theme
 Edit CSS variables in styles.css:
 
 css

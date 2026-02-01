@@ -55,46 +55,50 @@ cyberpunk-portfolio/
 ├── script.js           # All JavaScript functionality
 └── README.md           # This file
 ```
-🚀 Getting Started
-Quick Start
-Download all three files (index.html, styles.css, script.js)
+### 🚀 Getting Started
+#### Quick Start
+- Download all three files (index.html, styles.css, script.js)
 
-Place them in the same folder
+- Place them in the same folder
 
-Open index.html in your web browser
+- Open index.html in your web browser
 
-No installation or build process required!
+- No installation or build process required!
 
-Live Demo
+### Live Demo
 Simply open index.html in any modern web browser to see the portfolio in action.
 
 🎯 Sections
-1. Navigation
-Sticky navigation bar with glassmorphism
+#### 1. Navigation
 
-Smooth scroll to sections
+- Sticky navigation bar with glassmorphism
 
-Mobile hamburger menu
+- Smooth scroll to sections
 
-Theme toggle button
+- Mobile hamburger menu
 
-2. Hero Section
-Animated profile image with HUD rings
+- Theme toggle button
 
-Typing text animation
+#### 2. Hero Section
 
-Interactive particle background
+- Animated profile image with HUD rings
 
-Call-to-action buttons
+- Typing text animation
 
-3. About Section
-Three information cards
+- Interactive particle background
 
-Scroll-triggered animations
+- Call-to-action buttons
 
-Highlight text effects
+#### 3. About Section
 
-4. Skills Section
+- Three information cards
+
+- Scroll-triggered animations
+
+- Highlight text effects
+
+#### 4. Skills Section
+
 12 technical skills with official icons
 
 Brand-color coded icons

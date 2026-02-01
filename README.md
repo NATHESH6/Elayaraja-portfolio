@@ -99,57 +99,61 @@ Simply open index.html in any modern web browser to see the portfolio in action.
 
 #### 4. Skills Section
 
-12 technical skills with official icons
+- 12 technical skills with official icons
 
-Brand-color coded icons
+- Brand-color coded icons
 
-3D hover animations
+- 3D hover animations
 
-Floating icon effects
+- Floating icon effects
 
-5. Education Section
-Vertical timeline layout
+#### 5. Education Section
 
-Status indicators (Completed/In Progress)
+- Vertical timeline layout
 
-Summary cards with key metrics
+- Status indicators (Completed/In Progress)
 
-Particle animations
+- Summary cards with key metrics
 
-6. Projects Section
-Project grid with hover effects
+- Particle animations
 
-GitHub and Live Demo buttons
+#### 6. Projects Section
 
-Technology tags
+- Project grid with hover effects
 
-Modal popup for details
+- GitHub and Live Demo buttons
 
-7. Contact Section
-Contact information cards (Email, Location, Mobile)
+- Technology tags
 
-Working contact form
+- Modal popup for details
 
-Success/Error states
+#### 7. Contact Section
 
-Cyberpunk form styling
+- Contact information cards (Email, Location, Mobile)
 
-⚙️ Customization
-Personal Information
-Edit the following in index.html:
+- Working contact form
 
-Name and title in Hero section
+- Success/Error states
 
-About section content
+- Cyberpunk form styling
 
-Education details
+## ⚙️ Customization
+### Personal Information
 
-Contact information
+- Edit the following in index.html:
 
-Social media links
+- Name and title in Hero section
 
-Contact Form Setup
-Option A (Formspree - Recommended):
+- About section content
+
+- Education details
+
+- Contact information
+
+- Social media links
+
+- Contact Form Setup
+1. Option A (Formspree - Recommended):
 
 Sign up at formspree.io
 
@@ -157,7 +161,7 @@ Create a new form and get your endpoint
 
 Replace YOUR_FORM_ID in the form action attribute
 
-Option B (EmailJS):
+2. Option B (EmailJS):
 
 Sign up at emailjs.com
 

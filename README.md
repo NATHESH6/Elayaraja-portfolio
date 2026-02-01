@@ -34,18 +34,19 @@ A futuristic cyberpunk-themed animated portfolio website with neon aesthetics, i
 
 - Performance-optimized animations
 
-🛠️ Tech Stack
-HTML5 - Semantic structure
+### 🛠️ Tech Stack
 
-CSS3 - Advanced layouts, gradients, animations
+- HTML5 - Semantic structure
 
-JavaScript (ES6) - Logic, interactions, 3D effects
+- CSS3 - Advanced layouts, gradients, animations
 
-Framer Motion - Smooth UI animations & page transitions
+- JavaScript (ES6) - Logic, interactions, 3D effects
 
-Particles.js - Interactive animated background
+- Framer Motion - Smooth UI animations & page transitions
 
-📁 File Structure
+- Particles.js - Interactive animated background
+
+### 📁 File Structure
 text
 cyberpunk-portfolio/
 ├── index.html          # Main HTML file

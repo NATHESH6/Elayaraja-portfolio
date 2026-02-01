@@ -1,5 +1,5 @@
-🚀 Cyberpunk Portfolio Website
-🌟 Overview
+# 🚀 Cyberpunk Portfolio Website
+## 🌟 Overview
 A futuristic cyberpunk-themed animated portfolio website with neon aesthetics, interactive 3D elements, and smooth animations. Built with pure HTML, CSS, and JavaScript to create an immersive sci-fi dashboard experience.
 
 🎨 Features

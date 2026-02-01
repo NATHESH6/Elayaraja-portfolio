@@ -169,7 +169,7 @@ Simply open index.html in any modern web browser to see the portfolio in action.
 
 ### Colors & Theme
 Edit CSS variables in styles.css:
-
+```
 css
 :root {
     --primary: #0ff0fc;    /* Cyan */
@@ -177,80 +177,86 @@ css
     --accent: #00ff9d;     /* Green */
     /* ... other variables */
 }
-Images
-Replace placeholder images with your own:
+```
+### Images
+- Replace placeholder images with your own:
 
-Profile image in Hero section
+- Profile image in Hero section
 
-Project images
+- Project images
 
-Certificate images
+- Certificate images
 
-📱 Browser Support
-Chrome (recommended)
+## 📱 Browser Support
 
-Firefox
+- Chrome (recommended)
 
-Safari
+- Firefox
 
-Edge
+- Safari
 
-Mobile browsers
+- Edge
 
-🚨 Performance Notes
-Particles count optimized for mobile
+- Mobile browsers
 
-60fps animations where possible
+## 🚨 Performance Notes
 
-Lazy loading for images
+- Particles count optimized for mobile
 
-CSS hardware acceleration
+- 60fps animations where possible
 
-🔧 Troubleshooting
-Common Issues
-Animations not working: Ensure JavaScript is enabled
+- Lazy loading for images
 
-Form not submitting: Check Formspree/EmailJS setup
+- CSS hardware acceleration
 
-Layout issues: Clear browser cache
+## 🔧 Troubleshooting
 
-Mobile menu not working: Check console for JavaScript errors
+### Common Issues
 
-Browser Compatibility
-For best experience, use latest Chrome or Firefox
+- Animations not working: Ensure JavaScript is enabled
 
-Some 3D effects may be limited on older browsers
+- Form not submitting: Check Formspree/EmailJS setup
 
-Touch interactions optimized for mobile devices
+- Layout issues: Clear browser cache
 
-📄 License
+- Mobile menu not working: Check console for JavaScript errors
+
+### Browser Compatibility
+- For best experience, use latest Chrome or Firefox
+
+- Some 3D effects may be limited on older browsers
+
+- Touch interactions optimized for mobile devices
+
+## 📄 License
 Free to use for personal and commercial projects. Attribution appreciated but not required.
 
-🤝 Credits
-Font Awesome for icons
+## 🤝 Credits
 
-Unsplash for placeholder images
+- Font Awesome for icons
 
-Particles.js for background effects
+- Unsplash for placeholder images
 
-Fonts: Orbitron & Exo 2
+- Particles.js for background effects
 
-🐛 Bugs & Issues
-Found a bug? Please open an issue with:
+- Fonts: Orbitron & Exo 2
 
-Browser and version
+## 🐛 Bugs & Issues
+- Found a bug? Please open an issue with:
 
-Steps to reproduce
+- Browser and version
 
-Screenshot if possible
+- Steps to reproduce
 
-✨ Tips for Best Results
-Use high-quality images for best visual impact
+- Screenshot if possible
 
-Keep project descriptions concise
+## ✨ Tips for Best Results
+- Use high-quality images for best visual impact
 
-Test on multiple devices
+- Keep project descriptions concise
 
-Optimize images before uploading
+- Test on multiple devices
 
-Regularly update content
+- Optimize images before uploading
+
+- Regularly update content
